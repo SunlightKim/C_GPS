@@ -1,0 +1,14 @@
+# IDEA
+.idea
+
+# VSCODE
+.vscode
+
+# CMAKE
+CMakeLists.txt
+cmake-build-debug/
+
+# EXECUTABLES
+*.exe
+*.out
+*.app
