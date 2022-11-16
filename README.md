@@ -17,12 +17,8 @@
 > <br> AD BD CD
 > <br> AE BE CE DE
 
-> **Pseudo-code :**
-> <br> Je suis au point A (départ) - Je veux aller au point E (arrivée)
-> <br> -> S'il existe un chemin direct entre départ et arrivée (A-E) : ajouter ce chemin à une liste de chemins
-> <br> -> Sinon, passer au point suivant (B), ajouter le chemin entre le pt précéd et le nv pt (A-B)
-> <br> -> S'il existe un chemin direct entre pt actuel et arrivée : ajouter ce chemin à liste de chemins
-> <br> ET AINSI DE SUITE
+> **Algorithme :**
+> <br> Utilisation de l'algorithme *backtracing*
 
 ### <ins>Deadline</ins>
 
