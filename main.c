@@ -21,8 +21,8 @@ typedef struct Point {
 typedef struct Path {
     point start;                // Définie par un point de départ
     point end;                  // et un point d'arrivée
-    struct Path *next;          // Un chemin est suivie d'un autre chemin (next)
-    struct Path *previous;      // Un chemin est précédé d'un autre chemin (previous)
+    struct Path *next;          // Un chemin est suivie d'un autre chemin (next)            -> pas sûr de l'utilité (à vérifier si nécessaire au prog)
+    struct Path *previous;      // Un chemin est précédé d'un autre chemin (previous)       -> pas sûr de l'utilité (à vérifier si nécessaire au prog)
 } path;
 
 /* TODO: Créer une liste de chemins
