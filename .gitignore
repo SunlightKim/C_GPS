@@ -11,4 +11,5 @@ cmake-build-debug/
 # EXECUTABLES
 *.exe
 *.out
+*.o
 *.app

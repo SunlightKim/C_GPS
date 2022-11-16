@@ -17,9 +17,6 @@
 > <br> AD BD CD
 > <br> AE BE CE DE
 
-> **Algorithme :**
-> <br> Utilisation de l'algorithme *backtracking*
-
 ### <ins>Deadline</ins>
 
 Terminer le programmer avant **FIN NOVEMBRE**
@@ -29,7 +26,7 @@ Terminer le programmer avant **FIN NOVEMBRE**
 | Détails                             | Date     | Pourcentage |
 |-------------------------------------|----------|-------------|
 | Détermination algorithmes possibles | 15-11-22 | 100%        |
-| Programmation                       | 16-11-22 | 0%          |
+| Programmation                       | 16-11-22 | 100%        |
 
 ### <ins>Licence</ins>
 Copyright (c) Enzo Bonolis (CFAI UIMM DOLE 39), 2022.
