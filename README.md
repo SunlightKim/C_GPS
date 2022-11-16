@@ -18,7 +18,7 @@
 > <br> AE BE CE DE
 
 > **Algorithme :**
-> <br> Utilisation de l'algorithme *backtracing*
+> <br> Utilisation de l'algorithme *backtracking*
 
 ### <ins>Deadline</ins>
 
