@@ -2,11 +2,10 @@
 
 /* PSEUDO CODE
  * Soit départ au point A pour arrivée au point E
- * -> S'il existe un chemin direct entre les 2 pts -> ajouter chemin à liste de chemins
- * -> Sinon, passer au pt suivant (B) -> ajouter chemin entre pt précédent et nv point -> si chemin entre pt actuel et
- *    pt d'arrivée -> ajouter chemin à liste de chemins
- * -> et ainsi de suite (boucle) jusqu'au dernier chemin possible (D-E)
+ * -> S'il existe un chemin direct entre les 2 pts -> ajouter chemin à liste de chemins -> passer au pt suivant
+ * et ainsi de suite
  * -> on comptera pas les chemins identiques de sens inverses (ex: A-B = B-A)
+ * ALGO POSSIBLE : ALGO DFS
 */
 
 #include <stdio.h>
