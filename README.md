@@ -11,37 +11,22 @@
 > <br> On souhaite trouver (afficher) **tous les chemins** possibles entre les points **A** et **E**.
 
 > **Exemple :**
-> <br> Les trois premiers chemins possibles sont :
-> <br> 1. A -> E
-> <br> 2. A -> B -> E
-> <br> 3. A -> B -> C -> E
+> <br> Tous les chemins possibles sur le graph sont :
+> <br> AB
+> <br> AC BC
+> <br> AD BD CD
+> <br> AE BE CE DE
 
-### <ins>Version Complète</ins>
-
-> **Contraintes :**
-> <br> 1. On admettra toujours les points A, B, C, D et E.
-> <br> 2. L'utilisateur doit pouvoir sélectionner un point de départ et un point d'arrivée
-> <br> *Exemple : Départ A, Arrivée E ou Départ C, Arrivée A*
-
-> **Situation :**
-> <br> Soit les points A, B, C, D et E.
-> <br> On souhaite trouver (afficher) **tous les chemins** possibles entre les points indiqués par l'utilisateur
-
-### <ins>Ressources Utiles</ins>
-
-> **Algorithme BFS (Breadth-first Search) :**
-> <br> Lien 1 : [Wikipédia](https://en.wikipedia.org/wiki/Breadth-first_search)
-> <br> Lien 2 : [Programiz](https://www.programiz.com/dsa/graph-bfs)
-> <br> Lien 3 : [Scanftree](https://scanftree.com/programs/c/c-program-to-implement-breadth-first-search-bfs/)
-
-> **Algorithme de Dijkstra :**
-> <br> Lien 1 : [Wikipédia](https://fr.wikipedia.org/wiki/Algorithme_de_Dijkstra)
-> <br> Lien 2 : [TheCrazyProgrammer](https://www.thecrazyprogrammer.com/2014/03/dijkstra-algorithm-for-finding-shortest-path-of-a-graph.html)
-> <br> Lien 3 : [Programiz](https://www.programiz.com/dsa/dijkstra-algorithm)
+> **Pseudo-code :**
+> <br> Je suis au point A (départ) - Je veux aller au point E (arrivée)
+> <br> -> S'il existe un chemin direct entre départ et arrivée (A-E) : ajouter ce chemin à une liste de chemins
+> <br> -> Sinon, passer au point suivant (B), ajouter le chemin entre le pt précéd et le nv pt (A-B)
+> <br> -> S'il existe un chemin direct entre pt actuel et arrivée : ajouter ce chemin à liste de chemins
+> <br> ET AINSI DE SUITE
 
 ### <ins>Deadline</ins>
 
-Terminer le programmer avant **FIN DECEMBRE**
+Terminer le programmer avant **FIN NOVEMBRE**
 
 ### <ins>Progression</ins>
 
